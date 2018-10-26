@@ -1,8 +1,131 @@
+<!doctype html>
 <html>
-    <head>
-        <title>Tyler Ferrara's Past Projects</title>
-    </head>
-    <body>
-        <h1>hello world</h1>
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section>
+						<h2>Hello!</h2>
+					</section>
+
+					<section>
+						<h3>Who am I?</h3>
+						<br/>
+						<code class="hljs" style="word-wrap: break-word;">&lt;Me class="
+							<br/><span class="fragment fade-up"><a href="">Student</a>,</span>
+							<br/><span class="fragment fade-up"><a href="#engineering/">Software Engineer</a>,</span>
+							<br/><span class="fragment fade-up"><a href="">Entrepreneur</a>,</span>
+							<br/><span class="fragment fade-up"><a href="#jazz/">Jazz Musician</a></span><br/>
+							" /&gt;
+						</code>
+					</section>
+						
+					<section id="jazz" data-background="https://media.giphy.com/media/2FazbYdly6tSiDfP2/giphy.gif">
+						<h2>I don't mean this</h2>
+					</section>
+
+					<section data-background="https://i.ytimg.com/vi/Qg69FyaXD4M/maxresdefault.jpg">
+						<h2>More like this</h2>
+					</section>
+
+					<section>
+						<h3>Who am I?</h3>
+						<br/>
+						<code class="hljs" style="word-wrap: break-word;">&lt;Me class="
+							<br/><span><a href="">Student</a>,</span>
+							<br/><span><a href="#engineering/">Software Engineer</a>,</span>
+							<br/><span><a href="">Entrepreneur</a>,</span>
+							<br/><span><a href="#jazz/">Jazz Musician</a></span><br/>
+							" /&gt;
+						</code>
+					</section>
+
+				</section>
+
+				<section id="engineering">
+					<section>
+						<h2>Software Engineering</h2>
+						<ul>
+							<li class="fragment fade-up">Passion Projects ❤️</li>
+							<li class="fragment fade-up">School Projects 📓</li>
+							<li class="fragment fade-up">Working at a Startup 💡</li>
+						</ul>
+					</section>
+					
+					<section>
+						<img style="border:none" src="https://www.solvusglobal.com/wp-content/uploads/2018/02/Solvus-Global.png" alt="solvus">
+						<blockquote>"AI meets ColdSpray"</blockquote>
+					</section>
+
+					<section>
+						<p><b>ColdSpray</b> as fast as possible...</p>
+						<img src="https://www.researchgate.net/profile/Yu_Zou2/publication/267694267/figure/fig1/AS:647146520969216@1531303162202/Schematic-diagram-of-the-cold-spray-system.png" alt="coldspray blueprint">
+						<br/>
+						<span class="fragment fade-up">Basically 3D Printing with Metal</span>
+					</section>
+
+					<section>
+						<h2>Our Job:</h2>
+						<ul style="list-style:none">
+							<li>1. Collect Data</li>
+							<li>2. Machine Learning</li>
+							<li>3. Active Spray Assist</li>
+						</ul>
+					</section>
+
+					<section>
+						<video controls>
+							<source src="solvusDem.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+					</section>
+
+					
+
+				</section>
+
+				<section>
+					3
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>
